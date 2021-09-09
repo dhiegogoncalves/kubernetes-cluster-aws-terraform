@@ -5,9 +5,10 @@ terraform {
     local = ">=2.1.0"
   }
   backend "s3" {
-    bucket = "terraformbucket"
-    key    = "terraform.tfstate"
-    region = "us-east-1"
+    bucket  = "terraformbucket"
+    key     = "terraform.tfstate"
+    region  = "us-east-1"
+    profile = "dhiego"
   }
 }
 
