@@ -5,8 +5,9 @@
 - terraform init
 - terraform plan
 - terraform apply
-- terraform apply --auto-approve
 - terraform destroy
+
+---
 
 - cp kubeconfig ~/.kube/config
 - kubectl get nodes

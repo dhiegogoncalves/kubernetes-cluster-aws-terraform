@@ -24,6 +24,9 @@ users:
         - "token"
         - "-i"
         - "${aws_eks_cluster.cluster.name}"
+      env:
+        - name: AWS_PROFILE
+          value: "dhiego"
 KUBECONFIG
 }
 
